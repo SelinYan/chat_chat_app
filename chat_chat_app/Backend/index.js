@@ -6,6 +6,8 @@ import postRoutes from "./routes/posts.js";
 import commentRoutes from "./routes/comments.js";
 import likeRoutes from "./routes/likes.js";
 
+app.use(express.json());
+
 app.use("/Backend/authentication", authenticationRoutes);
 app.use("/Backend/users", userRoutes);
 app.use("/Backend/posts", postRoutes);
