@@ -8,8 +8,9 @@ body {
     justify-content: center;
 }
 
-.card {
+.login-card {
    display: flex;
+
    background-color: white;
    width: 100%;
    border-radius: 10px;
@@ -17,7 +18,7 @@ body {
    overflow: hidden;
 }
 
-.card-left {
+.login-card-left {
     flex: 1;
     background-image: linear-gradient(rgba(39,11,96,0.5),rgba(39,11,96,0.5)), url(../../assets/background_loginPage.jpg);
     background-size: cover;
@@ -48,7 +49,7 @@ p {
     cursor: pointer;
 }
 
-.card-right {
+.login-card-right {
     flex: 1;
     padding: 30px;
     display: flex;
