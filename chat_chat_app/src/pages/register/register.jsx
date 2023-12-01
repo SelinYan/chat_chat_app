@@ -6,7 +6,6 @@ const Register = () => {
     email: "",
     name: "",
   });
-  return <div className="register">Register</div>;
 };
 
 export default Register;
