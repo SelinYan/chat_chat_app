@@ -1,4 +1,5 @@
 import "./login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -10,7 +11,9 @@ const Login = () => {
             Welcome to the popular social media application chat chat
           </p>
           <span className="question">Don't have an account yet?</span>
-          <button className="registerButton">Register</button>
+          <Link to="/register">
+            <button className="registerButton">Register</button>
+          </Link>
         </div>
         <div className="login-card-right">
           <h2>Login</h2>
