@@ -73,6 +73,184 @@ body {
   justify-content: center;
 }
 
+/* leftbar */
+
+.leftBar {
+  flex: 2;
+  position: sticky;
+  top: 70px;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  background-color: white;
+  padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.leftbar-container {
+  padding: 20px;
+}
+
+.leftbar-hr {
+  margin: 20px 0;
+  border: none;
+  height: 0.5px;
+  background-color: lightgray;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leftbar-span2 {
+  font-size: 15px;
+}
+
+.leftbar-users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.leftbar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leftbar-span {
+  font-size: 14px;
+}
+
+.leftbar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* rightbar */
+
+.rightBar {
+  display: flex;
+  flex: 3;
+  position: sticky;
+  top: 70px;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  background-color: rgb(230, 229, 229);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.rightbar-container {
+  padding: 20px;
+}
+
+.rightbar-item {
+  box-shadow: 22px 18px 26px -16px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow:22px 18px 26px -16px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow:22px 18px 26px -16px rgba(0, 0, 0, 0.64);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.rightbar-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.rightbar-hr {
+  border: 0.5px solid lightgray;
+}
+
+.rightbar-userInfo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.rightbar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.seemore-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightbar-online {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  bottom: 3px;
+  left: 27px;
+}
+
+.rightbar-para {
+  color: rgb(109, 108, 108);
+  font-size: 15px;
+}
+
+.rightbar-span {
+  font-weight: 500;
+  color: #333;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.rightbar-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+}
+
+button:first-child {
+  background-color: #638fe7;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+button:last-child {
+  background-color: transparent;
+  border-radius: 5px;
+  color: gray;
+  border: 1px solid gray;
+}
+
+
 /* loginpage */
 .login-main-container {
   height: 100vh;
