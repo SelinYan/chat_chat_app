@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(232, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* navbar */
 .navbar {
   display: flex;
@@ -8,7 +17,7 @@
   border-bottom: 1px solid lightgray;
   position: sticky;
   top: 0;
-  background-color: aqua;
+  background-color: #446ae3;
   color: gray;
   z-index: 999;
 }
@@ -19,7 +28,7 @@
   padding-left: 30px;
   color: black;
 }
-.navbar-Right {
+.navbar-right {
   display: flex;
   align-items: center;
   color: #000;
@@ -41,6 +50,7 @@
   border-radius: 5px;
   padding: 5px;
 }
+
 .nav-input {
   border: none;
   width: 200px;
@@ -48,7 +58,7 @@
   color: black;
 }
 ::placeholder {
-  color: white;
+  color: rgb(51, 50, 50);
 }
 .navbar-user {
   display: flex;
@@ -62,15 +72,6 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background-color: rgb(232, 229, 229);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* leftbar */
@@ -156,8 +157,8 @@ body {
 
 .rightbar-item {
   box-shadow: 22px 18px 26px -16px rgba(0, 0, 0, 0.64);
-  -webkit-box-shadow:22px 18px 26px -16px rgba(0, 0, 0, 0.64);
-  -moz-box-shadow:22px 18px 26px -16px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 22px 18px 26px -16px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 22px 18px 26px -16px rgba(0, 0, 0, 0.64);
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -249,7 +250,6 @@ button:last-child {
   color: gray;
   border: 1px solid gray;
 }
-
 
 /* loginpage */
 .login-main-container {
