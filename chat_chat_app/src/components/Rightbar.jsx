@@ -18,8 +18,8 @@ const RightBar = () => {
               <p className="rightbar-span">Emily Johnson</p>
             </div>
             <div className="rightbar-buttons">
-              <button>Add</button>
-              <button>Ignore</button>
+              <button className="rightbar-button">Add</button>
+              <button className="rightbar-button-two">Ignore</button>
             </div>
           </div>
         </div>
