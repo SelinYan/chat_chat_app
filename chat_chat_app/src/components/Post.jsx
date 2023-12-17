@@ -10,7 +10,7 @@ const Post = ({ post }) => {
       <div className="post-container">
         <div className="post-user">
           <div className="post-userInfo">
-            <img className=" one" src={post.img} alt="" />
+            <img className=" one" src={post.profilePic} alt="" />
             <div className="post-details">
               <span className="post-name">{post.name}</span>
 
