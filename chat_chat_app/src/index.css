@@ -237,14 +237,14 @@ button {
   height: 35px;
 }
 
-button:first-child {
+.rightbar-button {
   background-color: #638fe7;
   border-radius: 5px;
   border: none;
   color: white;
 }
 
-button:last-child {
+.rightbar-button-two {
   background-color: transparent;
   border-radius: 5px;
   color: gray;
@@ -260,6 +260,7 @@ button:last-child {
   justify-content: center;
   background-color: lightblue;
 }
+
 .login-card {
   display: flex;
   background-color: white;

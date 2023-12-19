@@ -43,27 +43,31 @@ const Register = () => {
           </Link>
         </div>
         <div className="register-card-right">
-          <h2>Register</h2>
-          <form>
+          <h2 className="register-login-h2">Register</h2>
+          <form className="form">
             <input
+              className="register-input"
               type="text"
               placeholder="Username"
               name="username"
               onChange={handelChange}
             />
             <input
+              className="register-input"
               type="email"
               placeholder="Email"
               name="email"
               onChange={handelChange}
             />
             <input
+              className="register-input"
               type="password"
               placeholder="Password"
               name="password"
               onChange={handelChange}
             />
             <input
+              className="register-input"
               type="text"
               placeholder="Name"
               name="name"
